@@ -8,8 +8,8 @@ This project is designed for one to practice the Git/Github workflow here at Lam
 - [X] Add your PM as a collaborator
 - [X] Clone this repo
 - [X] Create a branch `git checkout -b 'firstName-lastName'`
-  - [ ] Add your name to the list of names below.
-  - [ ] Run your usual git commands or adding/commiting and pushing **Be sure to push to your branch**
+  - [X] Add your name to the list of names below.
+  - [X] Run your usual git commands or adding/commiting and pushing **Be sure to push to your branch**
 - [ ] Create a Pull-Request to submit your work
   - [ ] Use your own student fork as the base (compare across forks, base-fork -> master).
   - [ ] Add your PM as a reviewer on the Pull-Request
