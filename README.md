@@ -4,7 +4,7 @@ This project is designed for one to practice the Git/Github workflow here at Lam
 
 ## Directions to complete this assignment
 
-- [ ] Create your own version of this repo - Fork
+- [x] Create your own version of this repo - Fork
 - [ ] Add your PM as a collaborator
 - [ ] Clone this repo
 - [ ] Create a branch `git checkout -b 'firstName-lastName'`
@@ -19,3 +19,4 @@ This project is designed for one to practice the Git/Github workflow here at Lam
 
 - Steve Rogers
 - Ryan Hamblin
+- Tikkerei
