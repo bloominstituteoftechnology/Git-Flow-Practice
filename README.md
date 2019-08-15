@@ -16,7 +16,6 @@ This project is designed for one to practice the Git/Github workflow here at Lam
 - [ ] PM then will count the Assignment as done by merging the HW back into master "STUDENT FORK".
 
 ## ADD your name here
-
 - Steve Rogers
 - Ryan Hambli
-- Chirag Thesia
+- Chirag Thesia (HELLO)
