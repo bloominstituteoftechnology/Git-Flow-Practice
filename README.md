@@ -5,17 +5,16 @@ This project is designed for one to practice the Git/Github workflow here at Lam
 ## Directions to complete this assignment
 
 - [ ] Create your own version of this repo - Fork
-- [ ] Add your PM as a collaborator
+- [ ] Add your TL as a collaborator
 - [ ] Clone this repo
 - [ ] Create a branch `git checkout -b 'firstName-lastName'`
-  - [ ] Add your name to the list of names below.
-  - [ ] Run your usual git commands or adding/commiting and pushing **Be sure to push to your branch**
+- [ ] Add your name to the list of names below.
+- [ ] Run your usual git commands or adding/commiting and pushing **Be sure to push to your branch**
 - [ ] Create a Pull-Request to submit your work
-  - [ ] Use your own student fork as the base (compare across forks, base-fork -> master).
-  - [ ] Add your PM as a reviewer on the Pull-Request
-- [ ] PM then will count the Assignment as done by merging the HW back into master "STUDENT FORK".
+- [ ] Use your own student fork as the base (compare across forks, base-fork -> master).
+- [ ] Add your TL as a reviewer on the Pull-Request
+- [ ] TL then will count the Assignment as done by merging the HW back into master "STUDENT FORK".
 
 ## ADD your name here
 
-- Steve Rogers
-- Ryan Hamblin
+
