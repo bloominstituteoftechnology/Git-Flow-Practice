@@ -5,7 +5,7 @@ This project is designed for one to practice the Git/Github workflow here at Lam
 ## Directions to complete this assignment
 
 - [ ] Create your own version of this repo - Fork
-- [ ] Add your PM as a collaborator
+- [ ] Add your TL as a collaborator
 - [ ] Clone this repo
 - [ ] Create a branch `git checkout -b 'firstName-lastName'`
   - [ ] Add your name to the list of names below.
@@ -17,5 +17,4 @@ This project is designed for one to practice the Git/Github workflow here at Lam
 
 ## ADD your name here
 
-- Steve Rogers
-- Ryan Hamblin
+- Brett Flora
