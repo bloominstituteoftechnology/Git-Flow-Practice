@@ -29,25 +29,71 @@ you use the attribute "target="_blank"" on an element
     14. What is the alt attribute used for? 
 It's used in case an image doesnt load properly, the text in the alt attribute displays instead. It's also used for screen readers and search engines.
     15. How do I reference an id?
+in the css, #id{}
     16. What is the difference between a section and a div
+While divs are sometimes necessary for moving and organizing code, sections are semantic tags that are recommended use because they are giving more meaning than a simple div and for SEO purposes and acessibility purposes also.
     17. What is CSS used for? 
+Css, cascading style sheets, are used for styling the elements on the HTML files.
     18. How to we select an element? Example - every h2 on the page
+Just the element with nothing else before. The ex: h2{}
     19. What is the difference between a class and an id? - Give me an example of when I might use each one
+Id - #sectionOne because there's only one and Class: .blue because we can have multiple elements on the page that have the background blue for example and in the CSS we write: .blue{background-color:blue;} and all the elements with that class, have that background.
     20. How do we select classes in CSS?
-    21. How do we select a p element with a single class of “human””?
+.className{}
+    21. How do we select a p element with a single class of “human”?
+p.human{}
     22. What is a parent child selector? When would this be useful? 
+Because of inheritance sometimes it's useful that a section(parent) and a h3(child) get the same styles because the programmer specified that the font-family should be Helvetica for the section and the h3 gets it too. Simply, the the child is nested inside the parent and so on. This is very useful because we wouldn't need to give styles to all of the elements nested withing the parent selector because they would inherit all the styles unless we write rules specific for them to do otherwise.
     23. How do you select all links within a div with the class of sidebar?
+.sidebar.a
     24. What is a pseudo selector?
+Pseudo Selectors are extremely useful to style part of an element(first-letter) or when that element is in a different state(hover, active).
     25. What do we use the change the spacing between lines?
+line-height
     26. What do we use to change the spacing between letters?
+letter-spacing
     27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+text-transform: uppercase/undercase/capitalize
     28. How do I add a 1px border around my div that is dotted and black?
+border: 1px dotted black;
     29. How do I select everything on the page? 
+*{};
     30. How do I write a comment in CSS?
+/* COMMENT */
     31. How do I find out what file I am in, when I am using the command line? 
+pwd
     32. Using the command line - how do I see a list of files/folders in my current folder?
+ls
     33. How do I remove a file via the command line? Why do I have to be careful with this? 
+rm <file> because there's no prompt to see if you are sure and once deleted it's permanent, not going to the trash bin
     34. Why should I use version control? 
+You'll have all versions of the project, with multiple contributors
     35. How often should I commit to github?
+As much as you can, probably once every 20 minutes of work.
     36. What is the command we would use to push our repo up to github? 
+do git push origin last-name
     37. Walk me through Lambda's git flow. 
+For every project we do from now on Lambda we should be using Lambda Git Flow. We should fork the repo project and make it or own, add TL as a collaborator and then clone the repo on the terminal (git clone "url of github project"). We'll then create a branch with our first and last name and add TL as a reviewer. Then they'll accept the project as done by merging it back to the master. This we'll help me in a professional setting and help me master git.
+
+Stretch Questions
+
+    1. What is the difference between an inline element and a block element?
+They are both display values. When an elemnt has a value of block it takes up all the width available and always starts on a new line. With the inline it does not start in a new line (see the name) and is takes as much space as the width that the content needs.
+    2. What happens when an element is positioned absolutely? 
+The element is positioned relatively as the parent element.
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+Grid
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+Display block: (h1, h2,...),  p , header tags
+Inline: span, label
+Inline-block: img
+    5. In your own words, explain the box model. What is the fix for the box model? 
+If we consider the elements as boxes, the box model is used to style the layout. There's a "box" that wraps every HTML element, that box has margins, padding asn borders not just the content inside it. We can work with those values and have a more understanging sense of the elements on the page. The fix: html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+} 
+
+
+
