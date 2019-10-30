@@ -1,0 +1,46 @@
+https://codepen.io/KaraL228/pen/QWWqNew
+ 1. What is Semantic HTML? HTML that gives meaning to the web page rather than presentation. 
+    2. What is HTML used for? Programming language to make web pages on the internet viewable.
+    3. What is an attribute and where do we put it? It is a characteristic of a page element. We put it after a tag. 
+    4. What is the h1 tag used for? How many times should I use it on a page? The h1 tag is used to make text appear large. They can be used multiple times but should only be used when you are trying to draw attention to text.
+    5. Name two tags that have required attributes. <a> and <img>
+    6. What do we put in the head of our HTML document? <head> for a title or meta information.
+    7. What is an id? An attribute that specifies a unique id for an element.
+    8. What elements can I add an id to? <div> or <h1-h6>
+    9. How many times can I use the same id on a page? You can use them multiple times on a page but since they are unique elements, they should be used in moderation.
+    10. What is a class?  An attribute that specifies one or more names for an element. 
+    11. What elements can I add a class to? <section> <div> <h1 - h6>
+    12. How many times can I use the same class on a page? A class can be used multiple times if that same class will be given the same styling on the page. 
+    13. How do I get my link to open in a new tab? Add a target="_blank" attribute to the links.
+    14. What is the alt attribute used for? It specifies an alternate text for an image, if the image cannot be displayed. 
+    15. How do I reference an id? With a hashtag then the selector name. For ex. #firstname
+    16. What is the difference between a section and a div. Section is used for sections of a document like a header or footer.  Div is for a group of elements to format in CSS.
+    17. What is CSS used for? To describe the presentation of web pages. 
+    18. How to we select an element? Example - every h2 on the page. By typing the element like p {}
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one. A class is a name that has a dot before the name. The ID is a name that uses a #. An example of using a class is if you have different headings, you could use <h1 class="header">. For id, you would use when there is a single element on the page to style. Like id="main".
+    20. How do we select classes in CSS? With a dot. like .class
+    21. How do we select a p element with a single class of “human””? p. human{}
+    22. What is a parent child selector? When would this be useful? It is a selector used to select elements with a specific parent. The child selector selects all elements that are the children of a specified element.I think it would be useful when making a list for example.  
+    23. How do you select all links within a div with the class of sidebar? .sidebar? 
+    24. What is a pseudo selector? A keyword added to a selector that specifies a special state of a selected element. :hover for example.
+    25. What do we use the change the spacing between lines? the line-height property
+    26. What do we use to change the spacing between letters? the letter-spacing property 
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize? the text-transform property
+    28. How do I add a 1px border around my div that is dotted and black? div {border-bottom: 1px dotted black;}
+    29. How do I select everything on the page? with the *
+    30. How do I write a comment in CSS? with /* then end with */
+    31. How do I find out what file I am in, when I am using the command line? ls
+    32. Using the command line - how do I see a list of files/folders in my current folder? ls -la
+    33. How do I remove a file via the command line? Why do I have to be careful with this? rm - it doesn't give you a warning before deleting the file and will not go to a recycle bin so you would want to make sure that you want it removed completely before using this command.
+    34. Why should I use version control? To save all changes made to a project. Or give a history of changes made to a file. 
+    35. How often should I commit to github? Whenever you make changes or want to save your changes.
+    36. What is the command we would use to push our repo up to github? git push
+    37. Walk me through Lambda's git flow. First, I create my version of Repo by forking, then I will add my TL as a collaborator, then I will Clone the Repo and create a branch for the project. I will need to submit a pull request into the new branch. Then, I use my fork as the base and compare forks. I will need to add my TL as a reviewer on the pull request.
+Stretch Questions
+
+    1. What is the difference between an inline element and a block element? Inline elements do not force a new line to begin in the document flow. Block elements typically cause a line break to occur.
+    2. What happens when an element is positioned absolutely? An element that is absolutely positioned is fixed to the top, right, bottom or left and is positioned relative to its nearest positioned ancestor that is not static.
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? I think you would give it a margin of auto but type width: 
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default. I only found 2 elements that are diplay block: address and body. The only element I found that is display inline by default is map. The element that is display inline-block by default I think is img.  
+    5. In your own words, explain the box model. What is the fix for the box model? The box model is a term used for design and layout in CSS. It uses width, height, padding, margin and border to style elements in HTML.  Box-sizing: border-box is what I found as a fix to the box model. It adds padding and borders in an element's width so a natural box layout is applied to all elements.
+
