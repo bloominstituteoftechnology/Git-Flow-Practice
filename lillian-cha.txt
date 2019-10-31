@@ -15,38 +15,49 @@ https://codepen.io/lcha/pen/QWWqNgP
 8. What elements can I add an id to? any element any
 9. How many times can I use the same id on a page? only once
 10. What is a class? attribute that can be used with multiple element types
-11. What elements can I add a class to? 
-12. How many times can I use the same class on a page? 
-13. How do I get my link to open in a new tab?
-14. What is the alt attribute used for? 
-15. How do I reference an id?
-16. What is the difference between a section and a div
-17. What is CSS used for? 
-18. How to we select an element? Example - every h2 on the page
-19. What is the difference between a class and an id? - Give me an example of when I might use each one
-20. How do we select classes in CSS?
-21. How do we select a p element with a single class of “human””?
-22. What is a parent child selector? When would this be useful? 
-23. How do you select all links within a div with the class of sidebar?
-24. What is a pseudo selector?
-25. What do we use the change the spacing between lines?
-26. What do we use to change the spacing between letters?
-27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+11. What elements can I add a class to? anything except stuff like <html>, <body>
+12. How many times can I use the same class on a page? as many times as needed 
+13. How do I get my link to open in a new tab? target="_blank"
+14. What is the alt attribute used for? add caption to img for people using screen readers
+15. How do I reference an id? hashtag
+16. What is the difference between a section and a div section is a semantic HTML term; div is block level element with no meaning
+17. What is CSS used for? used to style different HTML elements
+18. How to we select an element? Example - every h2 on the page h2 {}
+19. What is the difference between a class and an id? - Give me an example of when I might use each one 
+    id is like a license, only used once e.g. anchored link. class is attribute to be used multiple times
+20. How do we select classes in CSS? .className {}
+21. How do we select a p element with a single class of “human””? p.human
+22. What is a parent child selector? When would this be useful? > useful for when you want to select child that only belongs to a certain parent
+23. How do you select all links within a div with the class of sidebar? sidebar div > a
+24. What is a pseudo selector? refers to a selector in a specific state e.g. hover or first-child
+25. What do we use the change the spacing between lines? property line-height
+26. What do we use to change the spacing between letters? property letter-spacing
+27. What do we use to to change everything to CAPITALS? lowercase? Capitalize? text-transform: uppercase, capitalize, lowercase
 28. How do I add a 1px border around my div that is dotted and black?
-29. How do I select everything on the page? 
-30. How do I write a comment in CSS?
-31. How do I find out what file I am in, when I am using the command line? 
-32. Using the command line - how do I see a list of files/folders in my current folder?
-33. How do I remove a file via the command line? Why do I have to be careful with this? 
-34. Why should I use version control? 
-35. How often should I commit to github?
-36. What is the command we would use to push our repo up to github? 
+    div {border: 1px dotted black; }
+29. How do I select everything on the page? * {}
+30. How do I write a comment in CSS? /* this is a comment */
+31. How do I find out what file I am in, when I am using the command line? pwd shows you current directory
+32. Using the command line - how do I see a list of files/folders in my current folder? ls to see list of places to go
+33. How do I remove a file via the command line? Why do I have to be careful with this? git rm. there are no safeguards
+34. Why should I use version control? control branches of code, safety when reverting back to old type, adding new features
+35. How often should I commit to github? every 20 min or so
+36. What is the command we would use to push our repo up to github? git push
 37. Walk me through Lambda's git flow. 
+    fork github repo. get clone link. git clone link. make your own branch firstname-lastname
+    add changes, commit changes with message, then push
+    make pull request and add TL as reviewer
 
 Stretch Questions
 
 1. What is the difference between an inline element and a block element?
-2. What happens when an element is positioned absolutely? 
+    block elements take up a whole line / make a whole new line. inline elements exist on same line with other inline elements
+2. What happens when an element is positioned absolutely? position absolutely by pixels. relative to nearest ancestor
 3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+    display: inline-block ?
 4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+    p, div, <hr>
+    <img> <a>
+    button
 5. In your own words, explain the box model. What is the fix for the box model? 
+    box model: everything is a box. solution = box-sizing: border-box includes padding and borders in an element’s width
