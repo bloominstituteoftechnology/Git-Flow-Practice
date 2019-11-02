@@ -19,3 +19,5 @@ This project is designed for one to practice the Git/Github workflow here at Lam
 
 - Steve Rogers
 - Ryan Hamblin
+
+typing some random stuff in to the read me file
