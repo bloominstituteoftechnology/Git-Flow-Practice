@@ -19,3 +19,5 @@ This project is designed for one to practice the Git/Github workflow here at Lam
 
 - Steve Rogers
 - Ryan Hamblin
+- My name is DUDE!
+- Here is some more text!
