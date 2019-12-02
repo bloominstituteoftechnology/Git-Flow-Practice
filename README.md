@@ -1,5 +1,5 @@
 # Git-Flow-Practice
-
+hi I was here 
 This project is designed for one to practice the Git/Github workflow here at Lambda School. You will be able to follow along with [this pre-class video](https://youtu.be/4fLr6ah82bE) and use this assignment to demonstrate your ability to work within this flow. Watch this video, then follow the instructions listed below to complete the assignment
 
 ## Directions to complete this assignment
