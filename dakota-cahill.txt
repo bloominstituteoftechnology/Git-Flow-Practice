@@ -1,0 +1,190 @@
+Part two codepen: 
+
+https://codepen.io/DakotaCahill/pen/XWJWYZJ?editors=1100
+
+1. What is Semantic HTML? 
+Semantic HTML reinforces smenatics, or meaning, of the information in a webpage 
+
+2. What is HTML used for?
+HTML is used to construct webpages, it ensures proper formatting. 
+
+3. What is an attribute and where do we put it? 
+An attribute provides additional information about a html element and is specified  in the start tag. 
+
+4. What is the h1 tag used for? How many times should I use it on a page?
+<h1> defines defines the most important text or heading on a page 
+
+5. Name two tags that have required attributes
+    
+
+6. What do we put in the head of our HTML document? 
+a closing(</html>) html tag, or possibly if a footer if that is what you are looking for. 
+
+7. What is an id? 
+It provides a unique id for a html element
+
+8. What elements can I add an id to? 
+Pretty much any element can be given a unique identifier
+   
+9. How many times can I use the same id on a page? 
+once. 
+
+10. What is a class?
+A html attribute that defines a category of items, almost like a blueprint that defines like-elements
+
+11. What elements can I add a class to? 
+Almost any element
+
+12. How many times can I use the same class on a page? 
+there is no limit.
+
+13. How do I get my link to open in a new tab?
+You can add the target="_blank" attribute to the link in the opening tag. 
+
+14. What is the alt attribute used for? 
+The Alt attribute specifies an alternate text for an image, if the image cannot be displayed. 
+
+15. How do I reference an id?
+You can reference an id with the #id CSS selector. 
+
+16. What is the difference between a section and a div
+section usually means that the content inside is grouped, as in similarly themed, while a div has no 
+meaning other than any class attribute given to it.  
+
+17. What is CSS used for? 
+CSS is used to style up the basic structure of an html document. It describes the overall presentation 
+of a page. 
+
+18. How to we select an element? Example - every h2 on the page
+By using CSS selectors, in this case targeting the h2 tag itself... h2 {}
+
+19. What is the difference between a class and an id? - Give me an example of when I might use each one
+A class can be used multiple times and target multiple elements, while an id is a unique identifier for a single element
+and can only be used once. 
+
+
+20. How do we select classes in CSS?
+With the syntax of a period before the class name... .class {} 
+
+21. How do we select a p element with a single class of “human””?
+We use the tag and the class, or just the class - p .human {} or .human {} 
+
+22. What is a parent child selector? When would this be useful? 
+
+
+23. How do you select all links within a div with the class of sidebar?
+div .sidebar a { }
+
+24. What is a pseudo selector?
+It is a keyword added to a selector to indicate a special 'state' of an element, such as :hover for the state of 
+an element(such as a link) being 'hovered' over by the cursor. 
+
+25. What do we use the change the spacing between lines?
+div.b {
+  line-height: 1.6;
+}
+
+26. What do we use to change the spacing between letters?
+h2 {
+  letter-spacing: 2px;
+}
+
+27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+h1 { 
+    text-transform: uppercase; 
+}
+
+h2 { 
+    text-transform: lowercase; 
+}
+
+h2 { 
+    text-transform: capitalize; 
+}
+
+28. How do I add a 1px border around my div that is dotted and black?
+div .class { 
+    border: 1px dotted black; 
+}
+
+29. How do I select everything on the page? 
+universal selector - * { }
+
+30. How do I write a comment in CSS?
+surround the comment with the /* this is a comment */ characters 
+
+31. How do I find out what file I am in, when I am using the command line? 
+you can print your working directory with the pwd command. You can use LS to list all files in your current directory. 
+
+32. Using the command line - how do I see a list of files/folders in my current folder?
+Using the LS command, ls -al for more detail 
+
+33. How do I remove a file via the command line? Why do I have to be careful with this? 
+using the rm command, this can be dangerous as there is no way to recover data deleted via this method. 
+
+34. Why should I use version control?
+Version control helps teams manage changes to a codebase over time. It keeps track of modifications to source in 
+a special kind of database called a reopository. There are many benefits to version control, such as the ability
+to roll back a bad feature or a mistake with minimal disruption to the team. It also helps with collaboration in 
+general. It is a better workflow to be able to worok on and file at any time. 
+
+35. How often should I commit to github?
+As often as possible, the code can be perfected later. 
+
+36. What is the command we would use to push our repo up to github? 
+git push origin ***branch you want to push too***
+
+37. Walk me through Lambda's git flow. 
+cd into directory you want to add project
+git clone “url here”
+cd into your project directory
+git checkout -b ‘first-lastname’
+git branch ==> check branch
+git status ==> check status
+git add .
+git commit -m “commit message”
+git push origin *branch you want to push too*
+
+Stretch Questions: 
+
+    1. What is the difference between an inline element and a block element?
+    An inline element does not cause a line break and does not use the entire width of a page by default and is bound by the opening and closing tag. 
+    A block element does does a new line and will use the full width of the page. A block-level element can take up one line or multiple lines and 
+    has a line break before and after the element.  
+
+    2. What happens when an element is positioned absolutely? 
+    This means it has an absolute or fixed position within it's containing block. The top, right, bottom, and left properties specify offsets from 
+    the edges of the element's containing block.
+
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width?
+    You would specify all of the dimensions of the 'box model' in CSS - height, width, margin, border and padding. 
+
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+    block by default - <div>, <p>, <ul>, inline by dafult - <span>, <a>, inline-block by default - <img> 
+
+    5. In your own words, explain the box model. What is the fix for the box model? 
+    Every element in html takes up space that is refefred to as a box. The 'box' is what encapsulates the element and comprises five properties: content(actual element display
+    content), padding(clears the area directly around the content), border( goes around the padding and content), margin(transparent area around the border).
+    The box model allows us to add a border around elements, and to define space between elements.  
+
+Git stretch Research:
+    Research and understand what a merge conflict is and how to resolve it: 
+    
+    A merge conflict is when combining code that has commits that are in conflict with one another and git cannot decide which to go with, and needs
+    input to come to a resolution. You must resolve all merge conflicts before you can merge a pull request on GitHub. These can only be resolved by manually 
+    editting the files and making line changes. You can see merge conflict under pul;l requests and from there choose to resolve the conflicts.     
+
+    You can only resolve merge conflicts on GitHub that are caused by competing line changes, such as when people make different changes to the same line of the 
+    same file on different branches in your Git repository. For all other types of merge conflicts, you must resolve the conflict locally on the command line.
+
+    Research the Git commands pull, rebase, merge. These commands will allow you to bring in changes that other developers push to the master branch:
+
+    pull - Fetch from and integrate with another repository or a local branch
+    rebase - Reapply commits on top of another base tip
+    merge - Join two or more development histories together
+
+    Research the Git commands reset , revert, clean. These commands will allow you to go back and amends previous commits you have made:
+
+    reset -  Reset current HEAD to the specified state
+    revert - Revert some existing commits
+    clean - Remove untracked files from the working tree
