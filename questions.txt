@@ -1,0 +1,89 @@
+https://codepen.io/jclark208/pen/abzjNRe?editors=1100
+
+    1. What is Semantic HTML? 
+introducing meaning ino the web page with things like header footer section and h1
+    2. What is HTML used for? 
+used to build the base for all websites
+    3. What is an attribute and where do we put it? 
+it is the data needed for certain tags  such as img
+    4. What is the h1 tag used for? How many times should I use it on a page?
+Normally used for the main title and only used once
+    5. Name two tags that have required attributes
+src and alt <a>
+    6. What do we put in the head of our HTML document? 
+<header>
+    7. What is an id? 
+gives unique id for an element
+    8. What elements can I add an id to? 
+any
+    9. How many times can I use the same id on a page? 
+once 
+    10. What is a class? 
+defines styles for elements
+    11. What elements can I add a class to? 
+every one 
+    12. How many times can I use the same class on a page? 
+once
+    13. How do I get my link to open in a new tab?
+href
+    14. What is the alt attribute used for? 
+alternative text on an image
+    15. How do I reference an id?
+#id
+    16. What is the difference between a section and a div
+section Normally implies a grouping
+    17. What is CSS used for? 
+used to style the html kind of like paint on a house
+    18. How to we select an element? Example - every h2 on the page
+h2{}
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+id is one element and a class can be multiple
+id for the whole section and class for different parts in a section
+    20. How do we select classes in CSS?
+.class
+    21. How do we select a p element with a single class of “human””?
+p .human
+    22. What is a parent child selector? When would this be useful? 
+different classes inside of other classes, kinda like a nesting doll
+    23. How do you select all links within a div with the class of sidebar?
+.sidebar
+    24. What is a pseudo selector?
+special state like hover
+    25. What do we use the change the spacing between lines?
+line-spacing
+    26. What do we use to change the spacing between letters?
+letter-spacing
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+you would use text-transform and then what ever one you want
+    28. How do I add a 1px border around my div that is dotted and black?
+border: 1px dotted black
+    29. How do I select everything on the page? 
+universal selector *
+    30. How do I write a comment in CSS?
+/*
+    31. How do I find out what file I am in, when I am using the command line? 
+pwd
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+ls 
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+rm will just delete the file with no warning and it cannot be retrived
+    34. Why should I use version control? 
+helps you to keep what your working on straight and if there is a problem you can always roll it back
+    35. How often should I commit to github?
+every twenty minutes or so or after big changes
+    36. What is the command we would use to push our repo up to github? 
+git push
+    37. Walk me through Lambda's git flow. 
+    find the repo -> fork the repo -> add collaborators -> clone the repo -> cd into the place you want the repo -> git clone -> cd into repo -> branch it ->git add -> git commit -> push it
+
+Stretch Questions
+
+    1. What is the difference between an inline element and a block element?
+inline will not start and new line block will take up the full available width and length
+    2. What happens when an element is positioned absolutely? 
+if it has no ancestor it will scroll with the page
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+max-width
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+block: address,form,li   Inline: a, img    both: nav with ul
+    5. In your own words, explain the box model. What is the fix for the box model? 
