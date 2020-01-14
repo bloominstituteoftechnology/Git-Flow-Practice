@@ -1,7 +1,7 @@
 https://codepen.io/jclark208/pen/abzjNRe?editors=1100
 
     1. What is Semantic HTML? 
-
+introducing meaning ino the web page with things like header footer section and h1
     2. What is HTML used for? 
 used to build the base for all websites
     3. What is an attribute and where do we put it? 
@@ -74,4 +74,16 @@ every twenty minutes or so or after big changes
     36. What is the command we would use to push our repo up to github? 
 git push
     37. Walk me through Lambda's git flow. 
+    find the repo -> fork the repo -> add collaborators -> clone the repo -> cd into the place you want the repo -> git clone -> cd into repo -> branch it ->git add -> git commit -> push it
 
+Stretch Questions
+
+    1. What is the difference between an inline element and a block element?
+inline will not start and new line block will take up the full available width and length
+    2. What happens when an element is positioned absolutely? 
+if it has no ancestor it will scroll with the page
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+max-width
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+block: address,form,li   Inline: a, img    both: nav with ul
+    5. In your own words, explain the box model. What is the fix for the box model? 
