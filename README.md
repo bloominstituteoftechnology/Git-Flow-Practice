@@ -19,3 +19,9 @@ This project is designed for one to practice the Git/Github workflow here at Lam
 
 - Steve Rogers
 - Ryan Hamblin
+- Jim Kennedy
+Jim Kennedy 2
+- Jim Kennedy 3 
+
+
+
