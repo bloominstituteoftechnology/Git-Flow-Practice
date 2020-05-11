@@ -1,6 +1,6 @@
- 1. What is Semantic HTML? 
-Semantic HTML is markup that gives meaning to HTML with specific tags. It allows you to organize 
-HTML into something that makes sense.
+     1. What is Semantic HTML? 
+    Semantic HTML is markup that gives meaning to HTML with specific tags. It allows you to organize 
+    HTML into something that makes sense.
 
     2. What is HTML used for? 
     HTML is used to markup content to provide meaning and consitency on the web.
@@ -67,6 +67,8 @@ HTML into something that makes sense.
     .human p or just .human ??
 
     22. What is a parent child selector? When would this be useful? 
+    it works with CSS and inheritence - it woud be useful if you want to style everything by selecting its parent
+    or you could just select child and it would style child
 
     23. How do you select all links within a div with the class of sidebar?
     .sidebar div
@@ -75,7 +77,7 @@ HTML into something that makes sense.
     it is used to define a special state of an element 
 
     25. What do we use the change the spacing between lines?
-    line-height
+    line-height:
 
     26. What do we use to change the spacing between letters?
     letter-spacing:
@@ -84,16 +86,39 @@ HTML into something that makes sense.
     text-transform: lowercase, uppercase, capitalize
 
     28. How do I add a 1px border around my div that is dotted and black?
-    
+    border: 1 px black dotted;
+
     29. How do I select everything on the page? 
+    *
+
     30. How do I write a comment in CSS?
+    /* comment it out */
+
     31. How do I find out what file I am in, when I am using the command line? 
+    git status 
+
     32. Using the command line - how do I see a list of files/folders in my current folder?
+    ls 
+
     33. How do I remove a file via the command line? Why do I have to be careful with this? 
+    4 rm <file>
+
     34. Why should I use version control? 
+    in order to restore versions & keep a record of changes 
+
     35. How often should I commit to github?
+    often - depending, but say 10 commits- early and often.. like meaningful commits 
+
     36. What is the command we would use to push our repo up to github? 
+    git push 
     37. Walk me through Lambda's git flow. 
+    fork repo
+    add TL as collab
+    clone repo
+    create a branch in git 
+    commit and push 
+    create a pull request 
+    add tl as reviewer 
 
 Stretch Questions
 
