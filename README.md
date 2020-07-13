@@ -20,3 +20,5 @@ This project is designed for one to practice the Git/Github workflow here at Lam
 - Steve Rogers
 - Ryan Hamblin
 - Ana Carrillo
+reviewing lambdas git workflow
+
