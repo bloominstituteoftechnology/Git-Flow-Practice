@@ -4,16 +4,17 @@ This project is designed for one to practice the Git/Github workflow here at Lam
 
 ## Directions to complete this assignment
 
-- [ ] Create your own version of this repo - Fork
-- [ ] Clone this repo
-- [ ] Create a branch `git checkout -b 'firstName-lastName'`
-  - [ ] Add your name to the list of names below.
-  - [ ] Run your usual git commands or adding/commiting and pushing **Be sure to push to your branch**
-- [ ] Create a Pull-Request to submit your work
-  - [ ] Use your own student fork as the base (compare across forks, base-fork -> master).
+- [x] Create your own version of this repo - Fork
+- [x] Clone this repo
+- [x] Create a branch `git checkout -b 'firstName-lastName'`
+  - [x] Add your name to the list of names below.
+  - [x] Run your usual git commands or adding/commiting and pushing **Be sure to push to your branch**
+- [ x Create a Pull-Request to submit your work
+  - [x] Use your own student fork as the base (compare across forks, base-fork -> master).
 
 
 ## ADD your name here
 
 - Steve Rogers
 - Ryan Hamblin
+- Timmy Nguyen
