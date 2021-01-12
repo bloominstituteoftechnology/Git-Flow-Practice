@@ -80,7 +80,7 @@ Copy the questions below into the first-lastname.txt file on your github repo - 
     36. What is the command we would use to push our repo up to github? 
     git init -b main -> git add . -> git commit -m "comment"
     37. Walk me through Lambda's git flow. 
-    git init -b main -> git add . -> git commit -m "comment"
+    git init -b main -> git add . -> git commit -m "comment" -> git push 
 
 Stretch Questions
 
