@@ -1,0 +1,26 @@
+1. What is the difference between an inline element and a block element? 
+
+A block element starts on a new line and takes up the full space it's assigned (height, width, etc). 
+Inline elements, stays in the same line and only takes up as much space as needed.
+
+2. What happens when an element is positioned absolutely? 
+
+It is an element with an absolute value relative to its nearest ancestor.  The position is based on the values of 
+top, bottom, right, and left.
+
+3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width?
+
+ 
+
+4. Name 3 elements that are display block by default, 2 elements that are display inline by default, and 1 
+   element that is display inline-block by default .
+
+-3 elements displayed as block by default - <div> <h1> <footer>
+-2 elements that are inline by default - <span> <img>
+-1 elements that are inline-block by default - <button>
+
+5. In your own words, explain the box model. What is the fix for the box model?
+
+The box model is used with design and layout to set the margin, border, padding, and content values. The box model allows
+for a border to go around the elements. This can be problematic when it comes to a reactive design.The fix is to set the 
+border box sizing value to "border-box". 
