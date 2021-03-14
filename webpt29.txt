@@ -1,0 +1,3 @@
+I'm hoping to learn Git, I am struggling with this.
+I have been following the steps and still.
+git is not easy
