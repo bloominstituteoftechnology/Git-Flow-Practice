@@ -14,6 +14,6 @@ This project is designed for one to practice the Git/Github workflow here at Lam
 
 
 ## ADD your name here
-
+- Amanda Lane
 - Steve Rogers
 - Ryan Hamblin
