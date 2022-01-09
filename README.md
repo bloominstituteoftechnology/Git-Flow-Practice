@@ -15,5 +15,7 @@ This project is designed for one to practice the Git/Github workflow here at Blo
 
 ## ADD your name here
 
+
 - Steve Rogers
-- Ryan Hamblin
+- Ryan Hamblin 
+- Collin Heffernan
