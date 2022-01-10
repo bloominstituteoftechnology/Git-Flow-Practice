@@ -14,6 +14,6 @@ This project is designed for one to practice the Git/Github workflow here at Blo
 
 
 ## ADD your name here
-
+- Joesph Aguilar
 - Steve Rogers
 - Ryan Hamblin
