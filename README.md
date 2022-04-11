@@ -9,10 +9,11 @@ This project is designed for one to practice the Git/Github workflow here at Blo
 - [ ] Create a branch `git checkout -b 'firstName-lastName'`
 - [ ] Add your name to the list of names below.
 - [ ] Run git add ., git commit -m "added my name to the list", and git push to send your code to Github
-- [ ] Create a Pull Request to submit your work. *DO NOT MERGE THE PULL REQUEST!*
+- [ ] Create a Pull Request to submit your work. _DO NOT MERGE THE PULL REQUEST!_
 - [ ] Use your own student fork as the base (compare across forks, base-fork -> master) and submit the URL in Canvas
 
 ## ADD your name to this list
 
 - Steve Rogers
 - Ryan Hamblin
+- Jacob Wallace
