@@ -4,10 +4,10 @@ This project is designed for one to practice the Git/Github workflow here at Blo
 
 ## Directions to complete this assignment
 
-- [ ] Create your own version of this repository by clicking the Fork button in the top right of the Github screen
-- [ ] Clone this repository by using the `git clone git@github.com:YOUR-GITHUB-NAME/Git-Flow-Practice.git`
-- [ ] Create a branch `git checkout -b 'firstName-lastName'`
-- [ ] Add your name to the list of names below.
+- [ x ] Create your own version of this repository by clicking the Fork button in the top right of the Github screen
+- [ x ] Clone this repository by using the `git clone git@github.com:YOUR-GITHUB-NAME/Git-Flow-Practice.git`
+- [ x ] Create a branch `git checkout -b 'firstName-lastName'`
+- [ x ] Add your name to the list of names below.
 - [ ] Run git add ., git commit -m "added my name to the list", and git push to send your code to Github
 - [ ] Create a Pull Request to submit your work. *DO NOT MERGE THE PULL REQUEST!*
 - [ ] Use your own student fork as the base (compare across forks, base-fork -> master) and submit the URL in Canvas
@@ -16,3 +16,4 @@ This project is designed for one to practice the Git/Github workflow here at Blo
 
 - Steve Rogers
 - Ryan Hamblin
+- Celiel Castillo
