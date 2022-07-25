@@ -16,3 +16,4 @@ This project is designed for one to practice the Git/Github workflow here at Blo
 
 - Steve Rogers
 - Ryan Hamblin
+- Jordan Wilia
