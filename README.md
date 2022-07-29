@@ -8,8 +8,8 @@
 - [ ] Clone (download) this repository onto your computer by using this command in your CLI: `git clone git@github.com:YOUR-GITHUB-NAME/Git-Flow-Practice.git`
 - [ ] Create a branch (version) by using this command in your CLI: `git checkout -b 'firstName-lastName'`
 - [ ] Add your name to the list of names below these instructions
-- [ ] Send your code to Github by using this set of commands in your CLI: `git add .`, git commit -m "type a message in here explaining what you changed"`, and `git push`
-- [ ] On GitHub, the button on the opposite end of the green Code button will let you check that your code made it up to the cloud after refreshing the page.
+- [ ] Send your code to Github by using this set of commands in your CLI: `git add .`, `git commit -m "type a message in here explaining what you changed"`, and `git push`
+- [ ] On GitHub, the grey "main" button opposite from the green "Code" button will show your named branch's version of code after refreshing the page
 - [ ] Create a Pull Request through the top menu of the repository on GitHub; click the green New Pull Request button, then use your own student fork as the base (compare across forks, myuser/firstName-lastName -> myuser/main). *DO NOT MERGE THE PULL REQUEST!*
 
 
