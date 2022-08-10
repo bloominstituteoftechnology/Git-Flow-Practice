@@ -16,6 +16,6 @@
 ## ADD your name to this list
 - Steve Rogers
 - Ryan Hamblin
-- Sarah Harrison
+-Sarah Harrison
 
 ### For a non-practice project, this would be when you would submit through Canvas; for this one, once you've added your name to the list and created a Pull Request you're done- no submission required!
