@@ -5,8 +5,8 @@
 ## Directions
 
 - [X] Create your own fork (copy) of this repository by clicking the Fork button in the top right of Github
-- [ ] Clone (download) this repository onto your computer by using this command in your CLI: `git clone git@github.com:YOUR-GITHUB-NAME/Git-Flow-Practice.git`
-- [ ] Create a branch (version) by using this command in your CLI: `git checkout -b 'firstName-lastName'`
+- [X] Clone (download) this repository onto your computer by using this command in your CLI: `git clone git@github.com:YOUR-GITHUB-NAME/Git-Flow-Practice.git`
+- [X] Create a branch (version) by using this command in your CLI: `git checkout -b 'firstName-lastName'`
 - [ ] Add your name to the list of names below these instructions
 - [ ] Send your code to Github by using this set of commands in your CLI: `git add .`, `git commit -m "type a message in here explaining what you changed"`, and `git push`
 - [ ] On GitHub, the grey "main" button opposite from the green "Code" button will show your named branch's version of code after refreshing the page
