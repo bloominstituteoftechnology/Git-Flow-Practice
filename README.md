@@ -1,21 +1,20 @@
 # Git-Flow-Practice
 
-This project is designed for one to practice the Git/Github workflow here at Lambda School. You will be able to follow along with [this pre-class video](https://youtu.be/4fLr6ah82bE) and use this assignment to demonstrate your ability to work within this flow. Watch this video, then follow the instructions listed below to complete the assignment
+## This project is designed for one to practice the Git Flow here at BloomTech. You will be able to follow along with [this great link](https://bloomtech.notion.site/bloomtech/BloomTech-Git-Flow-Step-by-step-269f68ae3bf64eb689a8328715a179f9) and use this assignment to demonstrate your ability to work within this flow. Follow the instructions for the Git Flow Without CodeGrade listed below to complete the assignment.
 
-## Directions to complete this assignment
+## Directions
 
-- [ ] Create your own version of this repo - Fork
-- [ ] Add your PM as a collaborator
-- [ ] Clone this repo
-- [ ] Create a branch `git checkout -b 'firstName-lastName'`
-  - [ ] Add your name to the list of names below.
-  - [ ] Run your usual git commands or adding/commiting and pushing **Be sure to push to your branch**
-- [ ] Create a Pull-Request to submit your work
-  - [ ] Use your own student fork as the base (compare across forks, base-fork -> master).
-  - [ ] Add your PM as a reviewer on the Pull-Request
-- [ ] PM then will count the Assignment as done by merging the HW back into master "STUDENT FORK".
+- [ ] Create your own fork (copy) of this repository by clicking the Fork button in the top right of Github
+- [ ] Clone (download) this repository onto your computer by using this command in your CLI: `git clone git@github.com:YOUR-GITHUB-NAME/Git-Flow-Practice.git`
+- [ ] Create a branch (version) by using this command in your CLI: `git checkout -b 'firstName-lastName'`
+- [ ] Add your name to the list of names below these instructions
+- [ ] Send your code to Github by using this set of commands in your CLI: `git add .`, `git commit -m "type a message in here explaining what you changed"`, and `git push -u origin firstName-lastName`. (Once you've set the upstream branch and pushed, you can from then on simply type `git push`)
+- [ ] On GitHub, the grey "main" button opposite from the green "Code" button will show your named branch's version of code after refreshing the page
+- [ ] Create a Pull Request through the top menu of the repository on GitHub; click the green New Pull Request button, then use your own student fork as the base to compare myuser/firstName-lastName to myuser/main. *DO NOT MERGE THE PULL REQUEST!*
 
-## ADD your name here
 
+## ADD your name to this list
 - Steve Rogers
 - Ryan Hamblin
+
+### For a non-practice project, this would be when you would submit through Canvas; for this one, once you've added your name to the list and created a Pull Request you're done- no submission required!
